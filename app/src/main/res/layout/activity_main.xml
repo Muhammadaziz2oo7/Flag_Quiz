@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/narure4"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/xushkelibsiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xush kelibsiz"
+            android:textColor="@color/yashil"
+            android:textSize="50sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/OsiyoDavlatlari"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/chekkasi"
+            android:gravity="center"
+            android:text=" Osiyo davlatlari"
+            android:textColor="@color/yashil"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/xushkelibsiz" />
+
+
+        <TextView
+            android:id="@+id/YeyropaDavlatlari"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/chekkasi"
+            android:gravity="center"
+            android:text="Yevropa davlatlari"
+            android:textColor="@color/yashil"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/OsiyoDavlatlari" />
+
+        <TextView
+            android:id="@+id/AfrikaDavlatlari"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/chekkasi"
+            android:gravity="center"
+            android:text="Afrika davlatlari"
+            android:textColor="@color/yashil"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/YeyropaDavlatlari" />
+
+        <TextView
+            android:id="@+id/shAmerikaDavlatlari"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/chekkasi"
+            android:gravity="center"
+            android:text="Sh.Amerika davlatlari"
+            android:textColor="@color/yashil"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/AfrikaDavlatlari" />
+
+        <TextView
+            android:id="@+id/jamerikaDavlatlari"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/chekkasi"
+            android:gravity="center"
+            android:text="J.Amerika davlatlari"
+            android:textColor="@color/yashil"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/shAmerikaDavlatlari" />
+
+        <TextView
+            android:id="@+id/orollar"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/chekkasi"
+            android:gravity="center"
+            android:text="Orollar"
+            android:textColor="@color/yashil"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/jamerikaDavlatlari" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
